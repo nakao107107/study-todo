@@ -1,0 +1,9 @@
+Week,概要,テキスト,アウトプット
+0,dev環境でterraform init/planを通す,HashiCorp Learn Get Started; Terraform Docs,plan結果スクショ
+1,Terraform state & backend,HashiCorp Learn Remote State in S3; terraform state Docs,state運用チートシート
+2,Module設計 & 既存コード読解,HashiCorp Learn Module Basics; Qiita Guide,モジュール依存マップ図
+3,AWSネットワーク基礎,VPC BlackBelt; AWS Build VPC Workshop,stg VPC構成図
+4,ALB/NLB & ECS AutoScaling,ALB BlackBelt; ECS Workshop,ALB vs NLB比較資料; AutoScaling実験ログ
+5,データレイヤ & CloudFront OAC,RDS/ElastiCache/CloudFront BlackBelt; CloudFront OAC Blog,RDS構成図; OAC手順書
+6,セキュリティ: IAM/WAF,IAM/Cognito/WAF BlackBelt; BotControl Blog,WAF料金試算; IAM改善リスト
+7,運用 & Terraformリファクタ,CloudWatch & Cost Optimization BlackBelt; Infracost Docs; Refactor Learn,改善PR2本; 最終レポート 
