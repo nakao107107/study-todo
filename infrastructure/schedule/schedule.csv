@@ -1,9 +1,9 @@
-Week,概要,テキスト,アウトプット
-0,dev環境でterraform init/planを通す,HashiCorp Learn Get Started; Terraform Docs,plan結果スクショ
-1,Terraform state & backend,HashiCorp Learn Remote State in S3; terraform state Docs,state運用チートシート
-2,Module設計 & 既存コード読解,HashiCorp Learn Module Basics; Qiita Guide,モジュール依存マップ図
-3,AWSネットワーク基礎,VPC BlackBelt; AWS Build VPC Workshop,stg VPC構成図
-4,ALB/NLB & ECS AutoScaling,ALB BlackBelt; ECS Workshop,ALB vs NLB比較資料; AutoScaling実験ログ
-5,データレイヤ & CloudFront OAC,RDS/ElastiCache/CloudFront BlackBelt; CloudFront OAC Blog,RDS構成図; OAC手順書
-6,セキュリティ: IAM/WAF,IAM/Cognito/WAF BlackBelt; BotControl Blog,WAF料金試算; IAM改善リスト
-7,運用 & Terraformリファクタ,CloudWatch & Cost Optimization BlackBelt; Infracost Docs; Refactor Learn,改善PR2本; 最終レポート 
+Week,概要,テキスト,アウトプット,達成目標
+0,dev環境でterraform init/planを通す,HashiCorp Learn Get Started; Terraform Docs,plan結果スクショ,Terraform planが成功するdev環境を構築し、基礎的なTerraformコマンドに慣れる
+1,Terraform state & backend,HashiCorp Learn Remote State in S3; terraform state Docs,state運用チートシート,S3バックエンドを利用したRemote Stateを設定し、import/mv等のstate操作を実践できる
+2,Module設計 & 既存コード読解,HashiCorp Learn Module Basics; Qiita Guide,モジュール依存マップ図,主要リソースをModule化し、Module依存関係図を作成して説明できる
+3,AWSネットワーク基礎,VPC BlackBelt; AWS Build VPC Workshop,stg VPC構成図,VPC/サブネット/NAT構成を図解し、ネットワークの通信経路を説明できる
+4,ALB/NLB & ECS AutoScaling,ALB BlackBelt; ECS Workshop,ALB vs NLB比較資料; AutoScaling実験ログ,ALBとNLBの違いを比較資料にまとめ、ECS FargateサービスにAutoScalingを適用できる
+5,データレイヤ & CloudFront OAC,RDS/ElastiCache/CloudFront BlackBelt; CloudFront OAC Blog,RDS構成図; OAC手順書,RDS Multi-AZ / Read Replica構成とElastiCacheの用途を説明し、CloudFront OACを設定できる
+6,セキュリティ: IAM/WAF,IAM/Cognito/WAF BlackBelt; BotControl Blog,WAF料金試算; IAM改善リスト,IAM最小権限設計とWAF Bot Control/Rate-based Ruleの設定案をまとめ、コスト影響を試算できる
+7,運用 & Terraformリファクタ,CloudWatch & Cost Optimization BlackBelt; Infracost Docs; Refactor Learn,改善PR2本; 最終レポート,2本のTerraform改善PRをマージし、最新インフラ構成図と学習レポートを完成させる 
